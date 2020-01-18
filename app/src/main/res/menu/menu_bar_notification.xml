@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <!-- <item
+        android:id="@+id/navigation_birthday"
+        android:icon="@drawable/ic_bell_white_24dp"
+        android:enabled="true"
+        android:title="@string/title_birthday" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/menu_cart"-->
+        <!--android:icon="@drawable/shopping_cart_white"-->
+        <!--app:actionLayout="@layout/cart_count"-->
+        <!--app:showAsAction="always"-->
+        <!--android:title="cart"-->
+        <!--appcompat:showAsAction="always"/>-->
+
+
+
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Milk Manager</string>
+    <string name="milk_rate">Milk Rate :</string>
+    <string name="rupees">₹</string>
+    <string name="per_kg">/ Kg</string>
+    <string name="home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="you_took_milk_today">You took milk today?</string>
+    <string name="yes">Yes</string>
+    <string name="No">No</string>
+    <string name="quantity">Quantity</string>
+    <string name="plus">+ 0.5 Kg</string>
+    <string name="minus">- 0.5 kg</string>
+    <string name="additional_notes">Additional Notes</string>
+</resources>

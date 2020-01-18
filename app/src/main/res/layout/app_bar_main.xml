@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:id="@+id/milkRateLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/milk_rate"
+                    android:fontFamily="@font/helvetica_bold"
+                    android:textSize="@dimen/app_font_large"
+                    android:padding="@dimen/app_padding_small"
+                    android:gravity="center"
+            />
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="@string/rupees"
+                    android:fontFamily="@font/helvetica_bold"
+                    android:textSize="@dimen/app_font_large"
+                    android:padding="@dimen/app_padding_small"
+                    android:gravity="center"
+            />
+
+            <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:padding="@dimen/app_padding_small"
+                    android:gravity="center"
+            />
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="@string/per_kg"
+                    android:fontFamily="@font/helvetica_bold"
+                    android:textSize="@dimen/app_font_large"
+                    android:padding="@dimen/app_padding_small"
+                    android:gravity="center"
+            />
+
+        </LinearLayout>
+
+        <!-- <CalendarView
+                 android:layout_below="@id/milkRateLL"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:id="@+id/calendarView"
+                 android:layout_centerInParent="true"
+                 android:elevation="20dp"
+                 android:layout_margin="20dp"
+                 android:background="#ffffff"
+         />-->
+
+
+        <!--<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+            />
+
+        </LinearLayout>-->
+
+        <LinearLayout
+                android:layout_below="@id/milkRateLL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="horizontal">
+
+                <ImageButton
+                        android:id="@+id/left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/left"
+                        android:layout_alignParentStart="true"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="10dp"/>
+
+                <TextView
+                        android:id="@+id/month_year"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toEndOf="@id/left"
+                        android:layout_toStartOf="@id/right"
+                        android:text="July 2019"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:background="@drawable/background_transparent"
+                        android:padding="10dp"
+                        android:fontFamily="@font/helvetica_bold"
+                />
+
+                <ImageButton
+                        android:id="@+id/right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_alignParentEnd="true"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="10dp"/>
+
+            </RelativeLayout>
+
+            <com.github.sundeepk.compactcalendarview.CompactCalendarView
+                    android:id="@+id/compactcalendar_view"
+                    android:layout_width="wrap_content"
+                    android:padding="10dp"
+                    android:background="#FAFAFA"
+                    app:compactCalendarBackgroundColor="#FAFAFA"
+                    android:layout_height="250dp"
+                    app:compactCalendarTargetHeight="250dp"
+                    app:compactCalendarTextSize="12sp"
+                    app:compactCalendarTextColor="@color/black"
+                    app:compactCalendarCurrentDayBackgroundColor="@color/white"
+                    app:compactCalendarCurrentSelectedDayBackgroundColor="@color/colorAccent"
+                    app:compactCalendarCurrentDayTextColor="@color/colorAccent"
+                    app:compactCalendarCurrentSelectedDayTextColor="@color/white"
+                    app:compactCalendarMultiEventIndicatorColor="@color/colorAccent"
+            />
+
+            <!--<com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    app:cardUseCompatPadding="true"
+                    app:cardCornerRadius="10dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardBackgroundColor="@color/greyLight"
+                    android:layout_marginTop="@dimen/app_margin_small"
+                    android:elevation="10dp"
+                    android:layout_height="match_parent">-->
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                            app:cardCornerRadius="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            android:elevation="10dp"
+                            android:layout_margin="@dimen/app_margin_small"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:orientation="vertical">
+
+                            <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/app_padding_small"
+                                    android:text="@string/you_took_milk_today"/>
+
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                <Button
+                                        android:id="@+id/yes_took_milk"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="@string/yes"
+                                        android:background="?attr/selectableItemBackgroundBorderless"
+                                        android:textAllCaps="false"
+
+                                />
+
+                                <Button
+                                        android:id="@+id/no_took_milk"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="@string/No"
+                                        android:background="?attr/selectableItemBackgroundBorderless"
+                                        android:textAllCaps="false"
+
+                                />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                            app:cardCornerRadius="10dp"
+                            android:id="@+id/quantityCV"
+                            android:visibility="gone"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            android:elevation="10dp"
+                            android:layout_margin="@dimen/app_margin_small"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:orientation="vertical">
+
+                            <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/app_padding_small"
+                                    android:text="@string/quantity"/>
+
+                            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/app_padding_small"
+                                    android:orientation="horizontal">
+
+                                <Button
+                                        android:id="@+id/quantity_plus"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="@string/plus"
+                                        android:textSize="@dimen/app_font_small"
+                                        android:background="?attr/selectableItemBackgroundBorderless"
+                                        android:textAllCaps="false"
+
+                                />
+
+                                <com.google.android.material.card.MaterialCardView
+                                        android:layout_weight="1"
+                                        android:layout_width="0dp"
+                                        app:cardCornerRadius="10dp"
+                                        android:elevation="10dp"
+                                        android:layout_height="match_parent">
+
+                                    <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:text="2.5 Kg"
+                                            android:padding="@dimen/app_padding_small"
+                                            android:gravity="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="@dimen/app_font_large"
+                                            android:background="@color/colorPrimary"
+                                            android:layout_weight="1"/>
+
+
+                                </com.google.android.material.card.MaterialCardView>
+
+
+                                <Button
+                                        android:id="@+id/quantity_minus"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="@string/minus"
+                                        android:textSize="@dimen/app_font_small"
+                                        android:background="?attr/selectableItemBackgroundBorderless"
+                                        android:textAllCaps="false"
+
+                                />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                            app:cardCornerRadius="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            android:elevation="10dp"
+                            android:layout_margin="@dimen/app_margin_small"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <LinearLayout android:layout_width="match_parent"
+                                      android:layout_height="wrap_content"
+                                      android:orientation="vertical">
+
+                            <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/app_padding_small"
+                                    android:text="@string/additional_notes"/>
+
+                            <EditText
+                                    android:id="@+id/notes_editText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/app_padding_small"
+                                    android:inputType="textCapSentences"
+                            />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            <!--</com.google.android.material.card.MaterialCardView>-->
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

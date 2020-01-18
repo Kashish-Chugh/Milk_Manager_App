@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">THE CHININESE BUFFET</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">Medklik</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifis</string>
+    <string name="title_about_us">About Us</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="welcome_dear_guest">Welcome Dear Guest</string>
+    <string name="submit">Submit</string>
+    <string name="could_not_book"><u>Could not book?</u></string>
+    <string name="date_of_reservation">Date of Reservation</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="message">Message</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="address_line1">Address line1</string>
+    <string name="address_line2">Address line2</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal code</string>
+    <string name="mobile_number">   Mobile number   </string>
+    <string name="email_address">Email address</string>
+    <string name="enter_detail_below">Please enter your detail below</string>
+    <string name="next">Next</string>
+    <string name="notes">Notes</string>
+    <string name="pay_deposit">Pay Deposit</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <string name="time_slots">Time</string>
+    <string name="deposit">Deposit</string>
+    <string name="dash">-</string>
+    <string name="no_of_guest">No. of guest</string>
+    <string name="confirm_detail">Confirm Your Details</string>
+    <string name="note">Note:</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+
+    <string-array name="select_location">
+        <item>BLACKPOOL</item>
+        <item>BOLTON</item>
+        <item>BURY</item>
+        <item>DARLINGTON</item>
+        <item>HUDDERSFIELD</item>
+        <item>LIVERPOOL</item>
+        <item>ST HELENS</item>
+        <item>WAKEFIELD</item>
+        <item>WIGAN</item>
+    </string-array>
+
+    <string-array name="number_of_guest">
+        <item>No. Of Guest</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30+</item>
+    </string-array>
+
+    <string-array name="available_slots">
+        <item>Available Slots</item>
+        <item>12:00</item>
+        <item>12:15</item>
+        <item>12:30</item>
+        <item>12:45</item>
+        <item>13:00</item>
+        <item>13:15</item>
+        <item>13:30</item>
+        <item>13:45</item>
+        <item>14:00</item>
+        <item>14:15</item>
+        <item>14:30</item>
+        <item>14:45</item>
+        <item>15:00</item>
+        <item>15:15</item>
+        <item>15:30</item>
+        <item>15:45</item>
+        <item>16:00</item>
+        <item>16:15</item>
+        <item>16:30</item>
+        <item>16:45</item>
+        <item>17:00</item>
+        <item>17:15</item>
+        <item>17:30</item>
+        <item>17:45</item>
+        <item>18:00</item>
+        <item>18:15</item>
+        <item>18:30</item>
+        <item>18:45</item>
+        <item>19:00</item>
+        <item>19:15</item>
+        <item>19:30</item>
+        <item>19:45</item>
+        <item>20:00</item>
+        <item>20:15</item>
+        <item>20:30</item>
+        <item>20:45</item>
+        <item>21:00</item>
+        <item>21:15</item>
+        <item>21:30</item>
+        <item>21:45</item>
+        <item>22:00</item>
+        <item>22:15</item>
+        <item>22:30</item>
+        <item>22:45</item>
+    </string-array>
+
+    <string-array name="available_slots_christmas">
+    <item>Available Slots</item>
+    </string-array>
+
+
+    <string-array name="number_of_high_chair">
+        <item>No. Of High Chair</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10+</item>
+    </string-array>
+
+    <string-array name="number_of_wheel_chair">
+        <item>No. Of Wheel Chair</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10+</item>
+    </string-array>
+
+    <string-array name="number_param_chair">
+        <item>No. Of Param Seats</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10+</item>
+    </string-array>
+    <string name="title_activity_restaurant_detail">RestaurantDetailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="book_table">Book Table</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="you_have_booked">You have booked</string>
+    <string name="branch">A branch of The Chinese Buffet</string>
+    <string name="get_direction">Direction</string>
+    <string name="birthday_detail">On completion of this form we will send you CHINESE BIRTHDAY voucher code to your mobile number within 10 minutes. You will need to provide ID to receive a FREE MEAL from THE Chinese Buffet so please make sure your detail are correct.</string>
+    <string name="confirm_mobile">Confirm Mobile</string>
+    <string name="birthday_code"><u>Your Birthday Code</u></string>
+    <string name="terms_condition"><u>Terms &amp; Condition</u></string>
+    <string name="title_birthday">Birthday</string>
+    <string name="agree_with">I agree with</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="management">Management</string>
+    <string name="who_we_are">Who we are</string>
+    <string name="promotions">Promotions</string>
+    <string name="bookings">Bookings</string>
+    <string name="birthday_meal">Birthday Meal</string>
+    <string name="promocode">Promocode :-</string>
+    <string name="redeem">Redeem</string>
+    <string name="validity">Validity :</string>
+    <string name="validDates">05/06/2019 to 10/06/2019</string>
+    <string name="validDateStart">01/06/2019</string>
+    <string name="validAt">Valid at :</string>
+    <string name="failed">Failed !</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="unable_to_connect">Unable to connect to server</string>
+    <string name="preference_file_key">userDetails</string>
+    <string name="opening_timings">Restaurant Timings</string>
+
+
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="buffetprice">Buffet Price</string>
+    <string name="buffet">Buffet</string>
+    <string name="price">Price (£s)</string>
+    <string name="unique_code">Unique Code :</string>
+    <string name="permission_call_rationale">Calling permission is required to make calls</string>
+    <string name="permission_denied_call">Permission is denied, but is needed for calling</string>
+    <string name="comments">Comments</string>
+    <string name="submit_your_feedback">Submit your feedback</string>
+    <string name="no_booking_message">Seems like you don\'t have any bookings.</string>
+    <string name="book_table_message">Book a table by clicking \"BOOK TABLE\" button below.</string>
+    <string name="verify_number">Verify your mobile number to see your bookings</string>
+    <string name="otp">Enter the otp send on the mobile number</string>
+    <string name="verify">Verify</string>
+    <string name="userMobile">UserMobile</string>
+    <string name="change_number">Change number?</string>
+    <string name="festive_menu">Festive Menu</string>
+    <string name="celebrate_here">Celebrate here</string>
+    <string name="booking_form">Booking Form</string>
+    <string name="booking_date">Booking Date</string>
+    <string name="festive_lunch_banquet">Festive Lunch Banquet</string>
+    <string name="otp_send">We will send a one-time password(OTP) to your mobile.</string>
+    <string name="visiting_date">Visting Date</string>
+    <string name="time_of_visit">Time of Visit</string>
+    <string name="service_related_message">This message is Service related</string>
+    <string name="food_related_message">This message is Food related</string>
+    <string name="price_related_message">This message is Price related</string>
+    <string name="promotion_related_message">Promotion dispute</string>
+    <string name="feedback_message">Feedback message</string>
+    <string name="terms_and_condition"><![CDATA[Terms & Conditions]]></string>
+    <string name="no_promotions_message">No promotions available at this moment. Try Again later.</string>
+    <string name="contactAddress">THE Chinese Buffet \n 32 Bridge Street, Bolton, BL1 2EH UK</string>
+    <string name="contactEmail">contactus@thechinesebuffet.com</string>
+    <string name="contactCall">1204-04388222</string>
+    <string name="Write_us_at">Write us at</string>
+    <string name="call_us_at">Call us at</string>
+    <string name="email_us_at">Email us at</string>
+    <string name="drop_us_a_line">Drop us a line</string>
+    <string name="who_we_are_content">THE Chinese Buffet is an expanding chain of restaurants across the North-west and North-east of England and elsewhere.  We offer all-you-can-eat meals featuring the very best authentic and innovative Chinese cuisine at an attractive price. We combine this with professional, friendly and quick service in modern and attractive surroundings to offer the most enjoyable customer experience.  And we must be getting the “recipe” right because our customer feedback is excellent. In fact, we’ve won awards for it. However, we are always glad to hear from customers – just go to our Contact page.</string>
+    <string name="management_content">The Chinese Buffet’s management team has many years of experience between them. This experience spans many fields within the food industry, including operations, brand development, marketing and management. Each of the three co-founders makes a vital contribution to the running of the business.</string>
+    <string name="version">version</string>
+    <string name="staff">Name of staff mentioned or dealt with customer</string>
+    <string name="user_detail">User Details</string>
+    <string name="confirmDetail">Confirm Details</string>
+    <string name="your_birthday_code">Free Meal Code :</string>
+    <string name="valid_from">Valid from</string>
+    <string name="valid_to">Valid to</string>
+    <string name="reservation_code">Reservation Code :</string>
+    <string name="valid_between">Valid between :</string>
+    <string name="to">to</string>
+    <string name="cancel">Cancel</string>
+    <string name="resend_otp">Didn\'t received otp? Resend in: </string>
+    <string name="log_in">Log in</string>
+    <string name="log_out">Log out</string>
+    <string name="completeBooking">The booking was not confirmed. Please pay the deposit to confirm your booking.</string>
+    <string name="cancel_reservation">Cancel Reservation</string>
+    <string name="confirm_reservation">Confirm Reservation</string>
+    <string name="yes">Yes</string>
+    <string name="confirm">Confirm</string>
+
+</resources>

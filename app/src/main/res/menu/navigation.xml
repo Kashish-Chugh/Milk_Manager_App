@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!--<item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:enabled="true"
+        android:title="@string/title_dashboard" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/navigation_home"-->
+        <!--android:icon="@drawable/home_icon_selector"-->
+        <!--android:enabled="true"-->
+        <!--android:title="@string/title_home" />-->
+
+
+
+    <!--<item-->
+        <!--android:id="@+id/navigation_order"-->
+        <!--android:icon="@drawable/dashboard_icon_selector"-->
+        <!--android:enabled="true"-->
+        <!--android:title="@string/bookings" />-->
+
+    <!--<item-->
+        <!--android:icon="@drawable/home_icon_selector"-->
+        <!--android:enabled="false"-->
+        <!--android:title="" />-->
+
+
+    <!--<item-->
+        <!--android:id="@+id/navigation_birthday"-->
+        <!--android:icon="@drawable/birthday_icon_selector"-->
+        <!--android:enabled="true"-->
+        <!--android:title="@string/title_birthday" />-->
+
+
+    <!--<item-->
+        <!--android:id="@+id/navigation_about_us"-->
+        <!--android:icon="@drawable/promotion_icon_selector"-->
+        <!--android:enabled="true"-->
+        <!--android:title="@string/promotions" />-->
+
+</menu>

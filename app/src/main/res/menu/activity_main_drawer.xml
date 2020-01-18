@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+                android:id="@+id/navigation_order"
+                android:icon="@drawable/home"
+                android:title="@string/home"/>
+
+        <!--<item
+                android:id="@+id/navigation_offer"
+                android:icon="@drawable/offer"
+                android:title="@string/title_offers"/>
+
+
+        <item
+                android:id="@+id/navigation_address"
+                android:icon="@drawable/home"
+                android:title="@string/title_delivery_address" />
+
+        <item
+            android:id="@+id/navigation_meet_the_farmers"
+            android:icon="@drawable/farmer"
+            android:title="@string/meet_the_farmers"/>
+
+
+        <item
+                android:id="@+id/navigation_rate_us"
+                android:icon="@drawable/rate"
+                android:title="@string/title_rate_us" />
+        <item
+                android:id="@+id/navigation_about_us"
+                android:icon="@drawable/about_us"
+                android:title="@string/title_about_us" />
+        <item
+                android:id="@+id/navigation_contact_us"
+                android:icon="@drawable/contact"
+                android:title="@string/title_contact_us" />
+
+        <item
+            android:id="@+id/navigation_terms_condition"
+            android:icon="@drawable/about"
+            android:title="@string/title_terms_condition" />
+
+        <item
+                android:id="@+id/navigation_log_out"
+                android:icon="@drawable/log_out"
+                android:title="@string/title_log_out" />-->
+    </group>
+
+
+</menu>
